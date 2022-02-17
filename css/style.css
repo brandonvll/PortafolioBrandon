@@ -1,0 +1,404 @@
+.bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+body{
+  font-family: 'Poppins', sans-serif;
+} 
+
+.color-verde{
+  background-color: #197F5B;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: #197F5B;
+}
+
+.navbar-toggler-icon {
+  background-image: url("../imagenes/menu.svg") !important;
+  
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.fondo-menu {
+  background-color: #436043;
+  padding: 15px;
+}
+
+.central{
+  text-align: center;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+  color: #EF9919;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.menu-pc{
+  margin-left: auto !important;
+  margin-right: none !important;
+}
+
+.encabezado{
+  background-color: #197F5B !important;
+}
+
+.tipo-texto{
+  text-align: center;
+  font-weight: 600;
+  color: white;
+  font-size: 32px;
+}
+
+.tipografia{
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.tipo-texto>span{
+  color: #EF9919;
+}
+
+.fondo {
+  background-image: url(../imagenes/Pcgrande.jpg);
+  padding-top: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+  padding-bottom: 200px;
+}
+
+.fondo>.row{
+  padding-bottom: 40px;
+}
+
+.espacio{
+  height: 200px;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedor {
+  padding: 9px 15px;
+  margin: 0 15px;
+  font-size: 25px;
+  border-radius: 40px;
+  font-weight: 400;
+  background: white;
+  transform: translateY(2in);
+}
+.pregunta{
+  background-color: #f8f8eefa;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.pregunta>h3{
+  padding-top: 15px;
+  padding-bottom: 5px;
+  line-height: 30px;
+  font-weight: 510;
+  color: #07412cbd;
+  font-size: 20px;
+  text-align: center;
+}
+
+.colores{
+  background-color: #8080801f;
+  border: none;
+  border-radius: 20px;
+  width: 90%;
+  height: 35px;
+}
+
+.botonesinputs {
+  background: #d4d4d4;
+  border-radius: 40px;
+}
+
+#texto-2::placeholder{
+  color: #EF9919;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+  padding: 10px;
+
+}
+.row.noestilo {
+  margin: 0 !important;
+}
+.boton-listo{
+  border: none;
+  border-radius: 20px;
+  width: 10%;
+  height: 35px;
+  background-color: #197F5B;
+  text-align: center;
+  color: white;
+  display: inline-block;
+  line-height: 2;
+}
+
+.acercaDeMi>h2{
+  color: black;
+  font-weight: 600;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 60px;
+}
+
+.acercaDeMi>p{
+  margin-left: 20px;
+  border-width: 5px;
+  border-style: solid;
+  padding-right: 5px;
+  padding-left: 20px;
+  border-right: none;
+  border-bottom: none;
+  border-block: none;
+  padding-bottom: 10px;
+}
+
+.descargar{
+  text-align: center;
+  padding-bottom: 60px;
+  padding-top: 20px;
+}
+
+input[type="button"] {
+  background-color:#197F5B;
+  color: white;
+  border-radius: 40px;
+  border: none;
+  height: 35px;
+}
+
+.titulo{
+  text-align: center;
+  color: black;
+  font-weight: 600;
+}
+
+.espaciointerno>img{
+  width: 120px;
+  padding-bottom: 10px;
+}
+
+.espaciointerno {
+  background: #f8f8eefa;
+  padding: 18px;
+}
+
+.sena {
+  border-style: solid;
+  text-align: center;
+  padding-top: 15px;
+  border: none;
+  border-radius: 20px;
+}
+
+.poli{
+  border-style: solid;
+  text-align: center;
+  padding-top: 15px;
+  border: none;
+  border-radius: 20px;
+}
+
+.row {
+  padding-bottom: 30px;
+}
+
+.mis-habilidades>h2{
+  text-align: center;
+  color: black;
+  font-weight: 600;
+  padding-top: 30px;
+}
+
+.porcentajes {
+  font-weight: 600;
+}
+
+
+.bajar{
+  padding-bottom: 55px;
+}
+
+.barrafondo{
+  width: 100%;
+  background-color: #8080801f;
+  height: 30px;
+  border-radius: 15px;
+}
+.barraporcentaje{
+  width: 85%;
+  background-color: #197F5B;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.barraporcentaje2{
+  width: 50%;
+  background-color: #197F5B;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.barraporcentaje3{
+  width: 80%;
+  background-color: #197F5B;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.barraporcentaje4{
+  width: 80%;
+  background-color: #197F5B;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.barratexto{
+  color: white;
+  text-align: center;
+}
+.carousel-item {
+  height: 285px !important;
+}
+
+.carousel-control-next-icon {
+  background-color: #EF9919;
+  padding: 6px;
+  border-radius: 100px;
+}
+
+span.carousel-control-prev-icon {
+  background-color: #EF9919;
+  padding: 6px;
+  border-radius: 100px;
+}
+
+.carousel-indicators [data-bs-target] {
+  background: #197f5b;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+}
+
+.carousel-letra{
+  color: #197F5B; 
+}
+
+.carousel-letra~p{
+  color: #197F5B; 
+}
+
+.title>h2{
+  text-align: center;
+  color: black;
+  font-weight: 600;
+  padding-top:  30px;
+  padding-bottom: 10px;
+}
+
+.portafolios>img{
+  width: 100%;
+  padding-top: 20px;
+}
+
+.titulo2{
+  text-align: center;
+  color: black;
+  font-weight: 600;
+  padding-top: 80px;
+}
+
+.espaciointerno2>img{
+  width: 120px;
+  padding-bottom: 10px;
+  background-color: #f8f8eefa;
+  padding: 15px;
+  border-radius: 100px;
+}
+
+
+.footer{
+  background-color: #197F5B;
+  height: 100px;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  margin: 0;
+}
+.footer~p{
+  color: white;
+  background-color: #197F5B;
+  width: 100%;
+  text-align: center;
+}
+
+.numero{
+  color: black;
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+
+
+
+ /* ESTO ES PARA PANTALLAS GRANDES*/
+@media only screen and (min-width:768px) {
+  
+  .encabezado-mobil{
+    display: none;
+  }
+}
+
+ /* ESTO ES PARA CELULAR*/
+@media only screen and (max-width:768px) {
+  .fondo {
+    background-image: url(../imagenes/Pcmovil.jpg);
+    background-size: cover;
+    background-position-y: bottom;
+}
+.espacio {
+  height: 350px;
+}
+  .colores{
+    width: 70%;
+  }
+  .boton-listo{
+    width: 30%;
+  }
+  .encabezado{
+    display: none;
+  }
+}
